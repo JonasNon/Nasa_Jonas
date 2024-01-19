@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+.main {
+  border: 5px solid black;
+
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+.big-image {
+  height: 450px;
+  width: 850px;
+  background-image: url("./space-pic.jpg");
+}
+
+p2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.lower {
+  background-color: rgb(215, 215, 215);
+  display: flex;
+  flex-direction: row;
+  height: 324px;
+  
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 270px;
+  padding: 20px;
+}
+
+h1 {
+  size: 200px;
+}
+
+p1 {
+  color: rgb(65, 65, 65);
+  
+}
+
+
